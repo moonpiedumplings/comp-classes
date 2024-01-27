@@ -1,6 +1,12 @@
 
 { pkgs ? import <nixpkgs> {} }:
 
+let
+  my-python-packages = ps: with ps; [
+    jupyter
+    ipynb
+  ];
+
 pkgs.mkShell {
   buildInputs = [
     pkgs.openjdk21
@@ -8,5 +14,5 @@ pkgs.mkShell {
     pkgs.git
   ];
 
-  JAVA_HOME = "${pkgs.openjdk21}/lib/jvm/java-21-openjdk";
+  JAVA_HOME = "${pkgs.openjdk21}/lib/openjdk";
 }

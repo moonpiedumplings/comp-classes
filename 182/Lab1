@@ -1,0 +1,10 @@
+// By Jeffrey Fonseca, for Comp 182 at CSUN. Taught by?
+// This is a simple hello world program
+// This program also has a test to see if I can name a java file/class "Class" without issues. 
+
+public class Lab1 { // Class name must be same as filename. But it is possible to name a class "Class"
+    public static void main(String[] args) { // void is the return value type
+        
+    }
+}
+
