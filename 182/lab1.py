@@ -1,5 +1,5 @@
 # By Jeffrey Fonseca
-# For Comp 182, at CSUN, taught by ???
+# For Comp 182, at CSUN, taught by Prof Freedman
 #  
 
 integerlist = input("Give a list of integers, seperated by spaces. The first integer is how long the list should be: ").split(' ')
